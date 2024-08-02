@@ -1,0 +1,130 @@
+.App {
+  text-align: center;
+}
+
+body {
+  background-color: #000;
+  color: aliceblue;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+form input {
+  font-size: 16px;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+}
+
+.All-btn {
+  color: white;
+  background-color: blue;
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Done-btn {
+  color: rgb(53, 51, 48);
+  background-color:  rgba(102, 255, 0, 0.795);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.Not-btn {
+  color: white;
+  background-color: rgb(243, 7, 7);
+  margin: 10px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.AddTask {
+  color: white;
+  background-color: blue;
+  margin: 4px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.container {
+  display: inline-flex;
+}
+
+.container span {
+  color: #000;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 4px;
+  font-size: 12px;
+}
+
+.check {
+  width: 24px;
+  height: 24px;
+  margin-right: 6px;
+}
+
+.isEditing {
+  font-size: 15px;
+}
+
+.edit {
+  color: white;
+  background-color: blue;
+  margin-left: 6px;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 10px;
+  cursor: pointer;
+}
